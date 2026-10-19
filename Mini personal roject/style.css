@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee8f5;
+    margin: 0;
+    padding: 15px;
+}
+
+.portfolio {
+    width: 95%;
+    min-height: 100vh;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #cbbddd;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #78b2c2;
+    padding: 25px;
+}
+
+h2 {
+    color: #78b2c2;
+    border-bottom: 2px solid #5a8bae;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+.aftesite, .projektet {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.aftesite p, .projekti {
+    background-color: #376d8f;
+    color: #78b2c2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.projekti {
+    flex: 1;
+}
+
+p {
+    line-height: 1.6;
+}
